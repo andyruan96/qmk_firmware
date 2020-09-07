@@ -22,15 +22,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Lighting layers
 const rgblight_segment_t PROGMEM my_capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {0, 3, 10, 149, 255},		// Coral
-	{13, 3, 10, 149, 255}
+    {0, 3, HSV_MY_BURNT_SIENNA},
+	{13, 3, HSV_MY_BURNT_SIENNA}
 );
 const rgblight_segment_t PROGMEM my_scrolllock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {3, 2, 212, 70, 221},		// Plum
-	{11, 2, 212, 70, 221}
+    {3, 2, HSV_MY_HARVEST_GOLD},
+	{11, 2, HSV_MY_HARVEST_GOLD}
 );
 const rgblight_segment_t PROGMEM my_numlock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
-    {5, 6, 49, 178, 255}		// Green
+    {5, 6, HSV_MY_AVOCADO}
 );
 const rgblight_segment_t PROGMEM my_layer1_layer[] = RGBLIGHT_LAYER_SEGMENTS(
     {9, 2, HSV_WHITE}

@@ -1,1 +1,6 @@
 #define RGBLIGHT_LAYERS
+
+// Colors
+#define HSV_MY_BURNT_SIENNA 9, 222, 211
+#define HSV_MY_HARVEST_GOLD 27, 241, 255
+#define HSV_MY_AVOCADO 62, 231, 140
