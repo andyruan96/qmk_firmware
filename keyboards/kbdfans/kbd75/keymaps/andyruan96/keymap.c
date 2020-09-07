@@ -11,12 +11,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	),
 	
 	[1] = LAYOUT_75_ansi(
-		KC_TRNS,	KC_MPRV,	KC_MPLY,	KC_MNXT,	KC_TRNS, 	KC_VOLD,	KC_MUTE, 	KC_VOLU, 	KC_TRNS,	KC_TRNS,	KC_TRNS,	KC_TRNS,	KC_TRNS, 	KC_TRNS, 	KC_SLCK, 	KC_PAUS,
-		KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	RESET, 					KC_NLCK,
-		KC_TRNS, 	RGB_TOG, 	RGB_MOD, 	RGB_HUI, 	RGB_HUD, 	RGB_SAI, 	RGB_SAD, 	RGB_VAI, 	RGB_VAD, 	RGB_SPI, 	RGB_SPD, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 				KC_TRNS,
-		KC_TRNS, 				RGB_M_P, 	RGB_M_B, 	RGB_M_R, 	RGB_M_SW, 	RGB_M_SN, 	RGB_M_K, 	RGB_M_X, 	RGB_M_G, 	RGB_M_T, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 				KC_TRNS,
-		KC_TRNS, 				BL_OFF, 	BL_ON, 		BL_DEC, 	BL_TOGG, 	BL_INC, 	BL_STEP, 	KC_TRNS, 	KC_TRNS,	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 				KC_TRNS, 	KC_TRNS,
-		KC_TRNS, 	KC_TRNS, 	KC_TRNS, 										KC_TRNS, 										KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS, 	KC_TRNS
+		_______,	KC_MPRV,	KC_MPLY,	KC_MNXT,	_______, 	KC_VOLD,	KC_MUTE, 	KC_VOLU, 	_______,	_______,	_______,	_______,	_______, 	_______, 	KC_SLCK, 	KC_PAUS,
+		_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	_______, 	RESET, 					KC_NLCK,
+		_______, 	RGB_TOG, 	RGB_MOD, 	RGB_HUI, 	RGB_HUD, 	RGB_SAI, 	RGB_SAD, 	RGB_VAI, 	RGB_VAD, 	RGB_SPI, 	RGB_SPD, 	_______, 	_______, 	_______, 				_______,
+		_______, 				RGB_M_P, 	RGB_M_B, 	RGB_M_R, 	RGB_M_SW, 	RGB_M_SN, 	RGB_M_K, 	RGB_M_X, 	RGB_M_G, 	RGB_M_T, 	_______, 	_______, 	_______, 				_______,
+		_______, 				BL_OFF, 	BL_ON, 		BL_DEC, 	BL_TOGG, 	BL_INC, 	BL_STEP, 	_______, 	_______,	_______, 	_______, 	_______, 				_______, 	_______,
+		_______, 	_______, 	_______, 										_______, 										_______, 	_______, 	_______, 	_______, 	_______, 	_______
 	)
 };
 
